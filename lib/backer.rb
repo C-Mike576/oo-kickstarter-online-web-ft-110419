@@ -4,7 +4,6 @@ class Backer
   def initialize(name)
     @backed_projects = []
     @name = name
-    @@all << self
   end
   
   def back_project(project_obj)
